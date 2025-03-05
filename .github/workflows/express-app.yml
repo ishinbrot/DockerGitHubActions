@@ -25,5 +25,5 @@ jobs:
               push: true
               tags: user/app:latest
               file: express-app/Dockerfile
-              context: express-app
+              context: express-app/
     
