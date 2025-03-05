@@ -24,6 +24,4 @@ jobs:
             with:
               push: true
               tags: user/app:latest
-              #file: express-app/Dockerfile
-              context: express-app
-    
+              file: express-app/Dockerfile    
